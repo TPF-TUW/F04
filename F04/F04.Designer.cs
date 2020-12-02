@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F04));
             this.ribbonControl = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.bbiPrintPreview = new DevExpress.XtraBars.BarButtonItem();
@@ -56,22 +57,27 @@
             this.tabbedControlGroup1 = new DevExpress.XtraLayout.TabbedControlGroup();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridLookUpEdit1 = new DevExpress.XtraEditors.GridLookUpEdit();
+            this.lblStatus = new DevExpress.XtraEditors.LabelControl();
+            this.sbOpenFile = new DevExpress.XtraEditors.SimpleButton();
+            this.txeBrowse = new DevExpress.XtraEditors.TextEdit();
+            this.tlDirectory = new DevExpress.XtraTreeList.TreeList();
+            this.colName = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.colType = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.colSize = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.colDate = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.gcFolder = new DevExpress.XtraGrid.GridControl();
+            this.gvFolder = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.glueGroup = new DevExpress.XtraEditors.GridLookUpEdit();
             this.gridLookUpEdit1View = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.txeVersion = new DevExpress.XtraEditors.TextEdit();
+            this.rgStatus = new DevExpress.XtraEditors.RadioGroup();
+            this.txeCREATE = new DevExpress.XtraEditors.TextEdit();
+            this.txeDATE = new DevExpress.XtraEditors.TextEdit();
+            this.txeName = new DevExpress.XtraEditors.TextEdit();
+            this.txeCode = new DevExpress.XtraEditors.TextEdit();
+            this.txeID = new DevExpress.XtraEditors.TextEdit();
+            this.gcFunction = new DevExpress.XtraGrid.GridControl();
+            this.gvFunction = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -84,34 +90,38 @@
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.ImageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
+            this.icFunction = new DevExpress.Utils.ImageCollection(this.components);
+            this.xtraOpenFileDialog1 = new DevExpress.XtraEditors.XtraOpenFileDialog(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeBrowse.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tlDirectory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcFolder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvFolder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.glueGroup.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit1View)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeVersion.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgStatus.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeCREATE.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeDATE.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeName.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeCode.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeID.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcFunction)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvFunction)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
@@ -124,13 +134,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImageCollection1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icFunction)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl
@@ -347,19 +360,20 @@
             // 
             // layoutControl1
             // 
-            this.layoutControl1.Controls.Add(this.simpleButton1);
-            this.layoutControl1.Controls.Add(this.textEdit7);
-            this.layoutControl1.Controls.Add(this.treeList1);
-            this.layoutControl1.Controls.Add(this.gridControl2);
-            this.layoutControl1.Controls.Add(this.gridLookUpEdit1);
-            this.layoutControl1.Controls.Add(this.textEdit6);
-            this.layoutControl1.Controls.Add(this.radioGroup1);
-            this.layoutControl1.Controls.Add(this.textEdit5);
-            this.layoutControl1.Controls.Add(this.textEdit4);
-            this.layoutControl1.Controls.Add(this.textEdit3);
-            this.layoutControl1.Controls.Add(this.textEdit2);
-            this.layoutControl1.Controls.Add(this.textEdit1);
-            this.layoutControl1.Controls.Add(this.gridControl1);
+            this.layoutControl1.Controls.Add(this.lblStatus);
+            this.layoutControl1.Controls.Add(this.sbOpenFile);
+            this.layoutControl1.Controls.Add(this.txeBrowse);
+            this.layoutControl1.Controls.Add(this.tlDirectory);
+            this.layoutControl1.Controls.Add(this.gcFolder);
+            this.layoutControl1.Controls.Add(this.glueGroup);
+            this.layoutControl1.Controls.Add(this.txeVersion);
+            this.layoutControl1.Controls.Add(this.rgStatus);
+            this.layoutControl1.Controls.Add(this.txeCREATE);
+            this.layoutControl1.Controls.Add(this.txeDATE);
+            this.layoutControl1.Controls.Add(this.txeName);
+            this.layoutControl1.Controls.Add(this.txeCode);
+            this.layoutControl1.Controls.Add(this.txeID);
+            this.layoutControl1.Controls.Add(this.gcFunction);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(0, 160);
             this.layoutControl1.Name = "layoutControl1";
@@ -369,64 +383,124 @@
             this.layoutControl1.TabIndex = 6;
             this.layoutControl1.Text = "layoutControl1";
             // 
-            // simpleButton1
+            // lblStatus
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(4, 162);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(68, 22);
-            this.simpleButton1.StyleController = this.layoutControl1;
-            this.simpleButton1.TabIndex = 20;
-            this.simpleButton1.Text = "Browse File";
+            this.lblStatus.Location = new System.Drawing.Point(192, 4);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(70, 14);
+            this.lblStatus.StyleController = this.layoutControl1;
+            this.lblStatus.TabIndex = 21;
+            this.lblStatus.Text = "labelControl1";
             // 
-            // textEdit7
+            // sbOpenFile
             // 
-            this.textEdit7.Location = new System.Drawing.Point(76, 162);
-            this.textEdit7.MenuManager = this.ribbonControl;
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(209, 20);
-            this.textEdit7.StyleController = this.layoutControl1;
-            this.textEdit7.TabIndex = 19;
+            this.sbOpenFile.Location = new System.Drawing.Point(4, 162);
+            this.sbOpenFile.Name = "sbOpenFile";
+            this.sbOpenFile.Size = new System.Drawing.Size(68, 22);
+            this.sbOpenFile.StyleController = this.layoutControl1;
+            this.sbOpenFile.TabIndex = 20;
+            this.sbOpenFile.Text = "Browse File";
+            this.sbOpenFile.Click += new System.EventHandler(this.sbOpenFile_Click);
             // 
-            // treeList1
+            // txeBrowse
             // 
-            this.treeList1.Location = new System.Drawing.Point(9, 214);
-            this.treeList1.MenuManager = this.ribbonControl;
-            this.treeList1.Name = "treeList1";
-            this.treeList1.Size = new System.Drawing.Size(271, 339);
-            this.treeList1.TabIndex = 18;
-            this.treeList1.ViewStyle = DevExpress.XtraTreeList.TreeListViewStyle.TreeView;
+            this.txeBrowse.Location = new System.Drawing.Point(76, 162);
+            this.txeBrowse.MenuManager = this.ribbonControl;
+            this.txeBrowse.Name = "txeBrowse";
+            this.txeBrowse.Size = new System.Drawing.Size(209, 20);
+            this.txeBrowse.StyleController = this.layoutControl1;
+            this.txeBrowse.TabIndex = 19;
             // 
-            // gridControl2
+            // tlDirectory
             // 
-            this.gridControl2.Location = new System.Drawing.Point(840, 30);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.MenuManager = this.ribbonControl;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(269, 571);
-            this.gridControl2.TabIndex = 17;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView2});
+            this.tlDirectory.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.colName,
+            this.colType,
+            this.colSize,
+            this.colDate});
+            this.tlDirectory.Location = new System.Drawing.Point(9, 214);
+            this.tlDirectory.MenuManager = this.ribbonControl;
+            this.tlDirectory.Name = "tlDirectory";
+            this.tlDirectory.OptionsView.AutoWidth = false;
+            this.tlDirectory.Size = new System.Drawing.Size(271, 339);
+            this.tlDirectory.TabIndex = 18;
+            this.tlDirectory.ViewStyle = DevExpress.XtraTreeList.TreeListViewStyle.TreeView;
+            this.tlDirectory.GetStateImage += new DevExpress.XtraTreeList.GetStateImageEventHandler(this.tlDirectory_GetStateImage);
+            this.tlDirectory.VirtualTreeGetChildNodes += new DevExpress.XtraTreeList.VirtualTreeGetChildNodesEventHandler(this.tlDirectory_VirtualTreeGetChildNodes);
+            this.tlDirectory.VirtualTreeGetCellValue += new DevExpress.XtraTreeList.VirtualTreeGetCellValueEventHandler(this.tlDirectory_VirtualTreeGetCellValue);
             // 
-            // gridView2
+            // colName
             // 
-            this.gridView2.GridControl = this.gridControl2;
-            this.gridView2.Name = "gridView2";
-            this.gridView2.OptionsView.EnableAppearanceEvenRow = true;
-            this.gridView2.OptionsView.EnableAppearanceOddRow = true;
-            this.gridView2.OptionsView.ShowGroupPanel = false;
+            this.colName.Caption = "Name";
+            this.colName.FieldName = "Name";
+            this.colName.Name = "colName";
+            this.colName.Visible = true;
+            this.colName.VisibleIndex = 0;
+            this.colName.Width = 200;
             // 
-            // gridLookUpEdit1
+            // colType
             // 
-            this.gridLookUpEdit1.Location = new System.Drawing.Point(100, 100);
-            this.gridLookUpEdit1.MenuManager = this.ribbonControl;
-            this.gridLookUpEdit1.Name = "gridLookUpEdit1";
-            this.gridLookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.colType.Caption = "Type";
+            this.colType.FieldName = "Type";
+            this.colType.Name = "colType";
+            // 
+            // colSize
+            // 
+            this.colSize.Caption = "Size(Bytes)";
+            this.colSize.FieldName = "Size(Bytes)";
+            this.colSize.Name = "colSize";
+            // 
+            // colDate
+            // 
+            this.colDate.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colDate.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.colDate.AppearanceCell.Options.UseFont = true;
+            this.colDate.AppearanceCell.Options.UseForeColor = true;
+            this.colDate.Caption = "Date Modified";
+            this.colDate.FieldName = "Date Modified";
+            this.colDate.Name = "colDate";
+            this.colDate.Visible = true;
+            this.colDate.VisibleIndex = 1;
+            this.colDate.Width = 100;
+            // 
+            // gcFolder
+            // 
+            this.gcFolder.Location = new System.Drawing.Point(840, 30);
+            this.gcFolder.MainView = this.gvFolder;
+            this.gcFolder.MenuManager = this.ribbonControl;
+            this.gcFolder.Name = "gcFolder";
+            this.gcFolder.Size = new System.Drawing.Size(269, 571);
+            this.gcFolder.TabIndex = 17;
+            this.gcFolder.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gvFolder});
+            // 
+            // gvFolder
+            // 
+            this.gvFolder.GridControl = this.gcFolder;
+            this.gvFolder.Name = "gvFolder";
+            this.gvFolder.OptionsBehavior.Editable = false;
+            this.gvFolder.OptionsView.EnableAppearanceEvenRow = true;
+            this.gvFolder.OptionsView.EnableAppearanceOddRow = true;
+            this.gvFolder.OptionsView.ShowGroupPanel = false;
+            this.gvFolder.CustomDrawColumnHeader += new DevExpress.XtraGrid.Views.Grid.ColumnHeaderCustomDrawEventHandler(this.gvFolder_CustomDrawColumnHeader);
+            this.gvFolder.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gvFolder_CustomDrawCell);
+            this.gvFolder.CustomDrawGroupRow += new DevExpress.XtraGrid.Views.Base.RowObjectCustomDrawEventHandler(this.gvFolder_CustomDrawGroupRow);
+            this.gvFolder.EndGrouping += new System.EventHandler(this.gvFolder_EndGrouping);
+            this.gvFolder.CustomColumnDisplayText += new DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventHandler(this.gvFolder_CustomColumnDisplayText);
+            // 
+            // glueGroup
+            // 
+            this.glueGroup.Location = new System.Drawing.Point(100, 28);
+            this.glueGroup.MenuManager = this.ribbonControl;
+            this.glueGroup.Name = "glueGroup";
+            this.glueGroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.gridLookUpEdit1.Properties.NullText = "";
-            this.gridLookUpEdit1.Properties.PopupView = this.gridLookUpEdit1View;
-            this.gridLookUpEdit1.Size = new System.Drawing.Size(185, 20);
-            this.gridLookUpEdit1.StyleController = this.layoutControl1;
-            this.gridLookUpEdit1.TabIndex = 16;
+            this.glueGroup.Properties.NullText = "";
+            this.glueGroup.Properties.PopupView = this.gridLookUpEdit1View;
+            this.glueGroup.Size = new System.Drawing.Size(185, 20);
+            this.glueGroup.StyleController = this.layoutControl1;
+            this.glueGroup.TabIndex = 16;
+            this.glueGroup.EditValueChanged += new System.EventHandler(this.glueGroup_EditValueChanged);
             // 
             // gridLookUpEdit1View
             // 
@@ -435,100 +509,118 @@
             this.gridLookUpEdit1View.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridLookUpEdit1View.OptionsView.ShowGroupPanel = false;
             // 
-            // textEdit6
+            // txeVersion
             // 
-            this.textEdit6.EditValue = "";
-            this.textEdit6.Location = new System.Drawing.Point(100, 76);
-            this.textEdit6.MenuManager = this.ribbonControl;
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Properties.MaxLength = 15;
-            this.textEdit6.Size = new System.Drawing.Size(129, 20);
-            this.textEdit6.StyleController = this.layoutControl1;
-            this.textEdit6.TabIndex = 15;
+            this.txeVersion.EditValue = "";
+            this.txeVersion.Location = new System.Drawing.Point(100, 100);
+            this.txeVersion.MenuManager = this.ribbonControl;
+            this.txeVersion.Name = "txeVersion";
+            this.txeVersion.Properties.BeepOnError = false;
+            this.txeVersion.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.RegExpMaskManager));
+            this.txeVersion.Properties.MaskSettings.Set("MaskManagerSignature", "isOptimistic=False");
+            this.txeVersion.Properties.MaskSettings.Set("mask", "(([01]?[0-9]?[0-9])|(2[0-4][0-9])|(25[0-5]))\\.(([01]?[0-9]?[0-9])|(2[0-4][0-9])|(" +
+        "25[0-5]))\\.(([01]?[0-9]?[0-9])|(2[0-4][0-9])|(25[0-5]))\\.(([01]?[0-9]?[0-9])|(2[" +
+        "0-4][0-9])|(25[0-5]))");
+            this.txeVersion.Properties.MaxLength = 15;
+            this.txeVersion.Size = new System.Drawing.Size(129, 20);
+            this.txeVersion.StyleController = this.layoutControl1;
+            this.txeVersion.TabIndex = 15;
+            this.txeVersion.InvalidValue += new DevExpress.XtraEditors.Controls.InvalidValueExceptionEventHandler(this.txeVersion_InvalidValue);
+            this.txeVersion.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txeVersion_KeyDown);
+            this.txeVersion.Leave += new System.EventHandler(this.txeVersion_Leave);
             // 
-            // radioGroup1
+            // rgStatus
             // 
-            this.radioGroup1.AutoSizeInLayoutControl = true;
-            this.radioGroup1.Location = new System.Drawing.Point(100, 124);
-            this.radioGroup1.MenuManager = this.ribbonControl;
-            this.radioGroup1.Name = "radioGroup1";
-            this.radioGroup1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(1)), "Active"),
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(0)), "Non Active")});
-            this.radioGroup1.Size = new System.Drawing.Size(185, 34);
-            this.radioGroup1.StyleController = this.layoutControl1;
-            this.radioGroup1.TabIndex = 14;
+            this.rgStatus.AutoSizeInLayoutControl = true;
+            this.rgStatus.Location = new System.Drawing.Point(100, 124);
+            this.rgStatus.MenuManager = this.ribbonControl;
+            this.rgStatus.Name = "rgStatus";
+            this.rgStatus.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Active"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Non Active")});
+            this.rgStatus.Size = new System.Drawing.Size(185, 34);
+            this.rgStatus.StyleController = this.layoutControl1;
+            this.rgStatus.TabIndex = 14;
             // 
-            // textEdit5
+            // txeCREATE
             // 
-            this.textEdit5.Location = new System.Drawing.Point(100, 562);
-            this.textEdit5.MenuManager = this.ribbonControl;
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Properties.ReadOnly = true;
-            this.textEdit5.Size = new System.Drawing.Size(185, 20);
-            this.textEdit5.StyleController = this.layoutControl1;
-            this.textEdit5.TabIndex = 10;
+            this.txeCREATE.Location = new System.Drawing.Point(100, 562);
+            this.txeCREATE.MenuManager = this.ribbonControl;
+            this.txeCREATE.Name = "txeCREATE";
+            this.txeCREATE.Properties.ReadOnly = true;
+            this.txeCREATE.Size = new System.Drawing.Size(185, 20);
+            this.txeCREATE.StyleController = this.layoutControl1;
+            this.txeCREATE.TabIndex = 10;
             // 
-            // textEdit4
+            // txeDATE
             // 
-            this.textEdit4.Location = new System.Drawing.Point(100, 586);
-            this.textEdit4.MenuManager = this.ribbonControl;
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Properties.ReadOnly = true;
-            this.textEdit4.Size = new System.Drawing.Size(185, 20);
-            this.textEdit4.StyleController = this.layoutControl1;
-            this.textEdit4.TabIndex = 9;
+            this.txeDATE.Location = new System.Drawing.Point(100, 586);
+            this.txeDATE.MenuManager = this.ribbonControl;
+            this.txeDATE.Name = "txeDATE";
+            this.txeDATE.Properties.ReadOnly = true;
+            this.txeDATE.Size = new System.Drawing.Size(185, 20);
+            this.txeDATE.StyleController = this.layoutControl1;
+            this.txeDATE.TabIndex = 9;
             // 
-            // textEdit3
+            // txeName
             // 
-            this.textEdit3.EditValue = "";
-            this.textEdit3.Location = new System.Drawing.Point(100, 52);
-            this.textEdit3.MenuManager = this.ribbonControl;
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Properties.MaxLength = 50;
-            this.textEdit3.Size = new System.Drawing.Size(185, 20);
-            this.textEdit3.StyleController = this.layoutControl1;
-            this.textEdit3.TabIndex = 7;
+            this.txeName.EditValue = "";
+            this.txeName.Location = new System.Drawing.Point(100, 76);
+            this.txeName.MenuManager = this.ribbonControl;
+            this.txeName.Name = "txeName";
+            this.txeName.Properties.MaxLength = 50;
+            this.txeName.Size = new System.Drawing.Size(185, 20);
+            this.txeName.StyleController = this.layoutControl1;
+            this.txeName.TabIndex = 7;
+            this.txeName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txeName_KeyDown_1);
+            this.txeName.Leave += new System.EventHandler(this.txeName_Leave);
             // 
-            // textEdit2
+            // txeCode
             // 
-            this.textEdit2.EditValue = "";
-            this.textEdit2.Location = new System.Drawing.Point(100, 28);
-            this.textEdit2.MenuManager = this.ribbonControl;
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Properties.MaxLength = 5;
-            this.textEdit2.Size = new System.Drawing.Size(75, 20);
-            this.textEdit2.StyleController = this.layoutControl1;
-            this.textEdit2.TabIndex = 6;
+            this.txeCode.EditValue = "";
+            this.txeCode.Location = new System.Drawing.Point(100, 52);
+            this.txeCode.MenuManager = this.ribbonControl;
+            this.txeCode.Name = "txeCode";
+            this.txeCode.Properties.MaxLength = 5;
+            this.txeCode.Size = new System.Drawing.Size(75, 20);
+            this.txeCode.StyleController = this.layoutControl1;
+            this.txeCode.TabIndex = 6;
+            this.txeCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txeCode_KeyDown);
+            this.txeCode.Leave += new System.EventHandler(this.txeCode_Leave);
             // 
-            // textEdit1
+            // txeID
             // 
-            this.textEdit1.Location = new System.Drawing.Point(100, 4);
-            this.textEdit1.MenuManager = this.ribbonControl;
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.ReadOnly = true;
-            this.textEdit1.Size = new System.Drawing.Size(75, 20);
-            this.textEdit1.StyleController = this.layoutControl1;
-            this.textEdit1.TabIndex = 5;
+            this.txeID.Location = new System.Drawing.Point(100, 4);
+            this.txeID.MenuManager = this.ribbonControl;
+            this.txeID.Name = "txeID";
+            this.txeID.Properties.ReadOnly = true;
+            this.txeID.Size = new System.Drawing.Size(88, 20);
+            this.txeID.StyleController = this.layoutControl1;
+            this.txeID.TabIndex = 5;
             // 
-            // gridControl1
+            // gcFunction
             // 
-            this.gridControl1.Location = new System.Drawing.Point(289, 4);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.MenuManager = this.ribbonControl;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(542, 602);
-            this.gridControl1.TabIndex = 4;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.gcFunction.Location = new System.Drawing.Point(289, 4);
+            this.gcFunction.MainView = this.gvFunction;
+            this.gcFunction.MenuManager = this.ribbonControl;
+            this.gcFunction.Name = "gcFunction";
+            this.gcFunction.Size = new System.Drawing.Size(542, 602);
+            this.gcFunction.TabIndex = 4;
+            this.gcFunction.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gvFunction});
             // 
-            // gridView1
+            // gvFunction
             // 
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.EnableAppearanceEvenRow = true;
-            this.gridView1.OptionsView.EnableAppearanceOddRow = true;
-            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gvFunction.GridControl = this.gcFunction;
+            this.gvFunction.Name = "gvFunction";
+            this.gvFunction.OptionsBehavior.Editable = false;
+            this.gvFunction.OptionsView.EnableAppearanceEvenRow = true;
+            this.gvFunction.OptionsView.EnableAppearanceOddRow = true;
+            this.gvFunction.OptionsView.ShowGroupPanel = false;
+            this.gvFunction.RowCellClick += new DevExpress.XtraGrid.Views.Grid.RowCellClickEventHandler(this.gvFunction_RowCellClick);
+            this.gvFunction.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gvFunction_CustomDrawCell);
+            this.gvFunction.CustomColumnGroup += new DevExpress.XtraGrid.Views.Base.CustomColumnSortEventHandler(this.gvFunction_CustomColumnGroup);
+            this.gvFunction.DoubleClick += new System.EventHandler(this.gvFunction_DoubleClick);
             // 
             // Root
             // 
@@ -546,11 +638,12 @@
             this.layoutControlItem8,
             this.layoutControlItem11,
             this.emptySpaceItem1,
-            this.layoutControlItem5,
             this.layoutControlGroup2,
             this.layoutControlItem12,
             this.layoutControlItem13,
-            this.layoutControlGroup3});
+            this.layoutControlGroup3,
+            this.layoutControlItem5,
+            this.layoutControlItem14});
             this.Root.Name = "Root";
             this.Root.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2);
             this.Root.Size = new System.Drawing.Size(1118, 610);
@@ -558,7 +651,7 @@
             // 
             // layoutControlItem1
             // 
-            this.layoutControlItem1.Control = this.gridControl1;
+            this.layoutControlItem1.Control = this.gcFunction;
             this.layoutControlItem1.Location = new System.Drawing.Point(285, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(546, 606);
@@ -567,17 +660,17 @@
             // 
             // layoutControlItem2
             // 
-            this.layoutControlItem2.Control = this.textEdit1;
+            this.layoutControlItem2.Control = this.txeID;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(175, 24);
+            this.layoutControlItem2.Size = new System.Drawing.Size(188, 24);
             this.layoutControlItem2.Text = "Function ID";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(84, 14);
             // 
             // layoutControlItem3
             // 
-            this.layoutControlItem3.Control = this.textEdit2;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem3.Control = this.txeCode;
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 48);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(175, 24);
             this.layoutControlItem3.Text = "Function No.";
@@ -585,8 +678,8 @@
             // 
             // layoutControlItem4
             // 
-            this.layoutControlItem4.Control = this.textEdit3;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 48);
+            this.layoutControlItem4.Control = this.txeName;
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 72);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(285, 24);
             this.layoutControlItem4.Text = "Function Name";
@@ -594,7 +687,7 @@
             // 
             // layoutControlItem6
             // 
-            this.layoutControlItem6.Control = this.textEdit4;
+            this.layoutControlItem6.Control = this.txeDATE;
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 582);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(285, 24);
@@ -603,7 +696,7 @@
             // 
             // layoutControlItem7
             // 
-            this.layoutControlItem7.Control = this.textEdit5;
+            this.layoutControlItem7.Control = this.txeCREATE;
             this.layoutControlItem7.Location = new System.Drawing.Point(0, 558);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Size = new System.Drawing.Size(285, 24);
@@ -613,22 +706,22 @@
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(175, 0);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(262, 0);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(110, 24);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(23, 24);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(175, 24);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(175, 48);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
             this.emptySpaceItem4.Size = new System.Drawing.Size(110, 24);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem8
             // 
-            this.layoutControlItem8.Control = this.radioGroup1;
+            this.layoutControlItem8.Control = this.rgStatus;
             this.layoutControlItem8.Location = new System.Drawing.Point(0, 120);
             this.layoutControlItem8.Name = "layoutControlItem8";
             this.layoutControlItem8.Size = new System.Drawing.Size(285, 38);
@@ -637,8 +730,8 @@
             // 
             // layoutControlItem11
             // 
-            this.layoutControlItem11.Control = this.textEdit6;
-            this.layoutControlItem11.Location = new System.Drawing.Point(0, 72);
+            this.layoutControlItem11.Control = this.txeVersion;
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 96);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Size = new System.Drawing.Size(229, 24);
             this.layoutControlItem11.Text = "Version";
@@ -647,19 +740,10 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(229, 72);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(229, 96);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
             this.emptySpaceItem1.Size = new System.Drawing.Size(56, 24);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
-            // 
-            // layoutControlItem5
-            // 
-            this.layoutControlItem5.Control = this.gridLookUpEdit1;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 96);
-            this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(285, 24);
-            this.layoutControlItem5.Text = "Group Function";
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(84, 14);
             // 
             // layoutControlGroup2
             // 
@@ -673,7 +757,7 @@
             // 
             // layoutControlItem9
             // 
-            this.layoutControlItem9.Control = this.gridControl2;
+            this.layoutControlItem9.Control = this.gcFolder;
             this.layoutControlItem9.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem9.Name = "layoutControlItem9";
             this.layoutControlItem9.Size = new System.Drawing.Size(273, 575);
@@ -682,7 +766,7 @@
             // 
             // layoutControlItem12
             // 
-            this.layoutControlItem12.Control = this.textEdit7;
+            this.layoutControlItem12.Control = this.txeBrowse;
             this.layoutControlItem12.Location = new System.Drawing.Point(72, 158);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(213, 26);
@@ -692,7 +776,7 @@
             // 
             // layoutControlItem13
             // 
-            this.layoutControlItem13.Control = this.simpleButton1;
+            this.layoutControlItem13.Control = this.sbOpenFile;
             this.layoutControlItem13.Location = new System.Drawing.Point(0, 158);
             this.layoutControlItem13.Name = "layoutControlItem13";
             this.layoutControlItem13.Size = new System.Drawing.Size(72, 26);
@@ -711,12 +795,70 @@
             // 
             // layoutControlItem10
             // 
-            this.layoutControlItem10.Control = this.treeList1;
+            this.layoutControlItem10.Control = this.tlDirectory;
             this.layoutControlItem10.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem10.Name = "layoutControlItem10";
             this.layoutControlItem10.Size = new System.Drawing.Size(275, 343);
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextVisible = false;
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.glueGroup;
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(285, 24);
+            this.layoutControlItem5.Text = "Group Function";
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(84, 14);
+            // 
+            // layoutControlItem14
+            // 
+            this.layoutControlItem14.Control = this.lblStatus;
+            this.layoutControlItem14.Location = new System.Drawing.Point(188, 0);
+            this.layoutControlItem14.Name = "layoutControlItem14";
+            this.layoutControlItem14.Size = new System.Drawing.Size(74, 24);
+            this.layoutControlItem14.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem14.TextVisible = false;
+            // 
+            // ImageCollection1
+            // 
+            this.ImageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("ImageCollection1.ImageStream")));
+            this.ImageCollection1.Images.SetKeyName(0, "Folder_Closed.png");
+            this.ImageCollection1.Images.SetKeyName(1, "Folder_Opened.png");
+            this.ImageCollection1.Images.SetKeyName(2, "File.png");
+            this.ImageCollection1.Images.SetKeyName(3, "Local_Disk.png");
+            // 
+            // icFunction
+            // 
+            this.icFunction.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("icFunction.ImageStream")));
+            this.icFunction.Images.SetKeyName(0, "new_32x32.png");
+            this.icFunction.Images.SetKeyName(1, "about_32x32.png");
+            this.icFunction.Images.SetKeyName(2, "geopointmap_32x32.png");
+            this.icFunction.Images.SetKeyName(3, "home_32x32.png");
+            this.icFunction.Images.SetKeyName(4, "currency_32x32.png");
+            this.icFunction.Images.SetKeyName(5, "boposition2_32x32.png");
+            this.icFunction.Images.SetKeyName(6, "format_32x32.png");
+            this.icFunction.Images.SetKeyName(7, "usergroup_32x32.png");
+            this.icFunction.Images.SetKeyName(8, "dayview_32x32.png");
+            this.icFunction.Images.SetKeyName(9, "changetheme_32x32.png");
+            this.icFunction.Images.SetKeyName(10, "bocustomer_32x32.png");
+            this.icFunction.Images.SetKeyName(11, "bocountry_32x32.png");
+            this.icFunction.Images.SetKeyName(12, "boposition_32x32.png");
+            this.icFunction.Images.SetKeyName(13, "insert_32x32.png");
+            this.icFunction.Images.SetKeyName(14, "rowindex_32x32.png");
+            this.icFunction.Images.SetKeyName(15, "database_32x32.png");
+            this.icFunction.Images.SetKeyName(16, "rulerhorizontal_32x32.png");
+            this.icFunction.Images.SetKeyName(17, "design_32x32.png");
+            this.icFunction.Images.SetKeyName(18, "boemployee_32x32.png");
+            this.icFunction.Images.SetKeyName(19, "boproduct_32x32.png");
+            this.icFunction.Images.SetKeyName(20, "printstartdate_32x32.png");
+            this.icFunction.Images.SetKeyName(21, "trackingchanges_trackchanges_32x32.png");
+            this.icFunction.Images.SetKeyName(22, "template_32x32.png");
+            this.icFunction.Images.SetKeyName(23, "treeview_32x32.png");
+            // 
+            // xtraOpenFileDialog1
+            // 
+            this.xtraOpenFileDialog1.FileName = "xtraOpenFileDialog1";
             // 
             // F04
             // 
@@ -736,21 +878,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeBrowse.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tlDirectory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcFolder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvFolder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.glueGroup.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit1View)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeVersion.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgStatus.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeCREATE.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeDATE.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeName.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeCode.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txeID.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcFunction)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvFunction)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
@@ -763,13 +905,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImageCollection1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icFunction)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -804,13 +949,13 @@
         private DevExpress.XtraLayout.LayoutControl layoutControl1;
         private DevExpress.XtraLayout.LayoutControlGroup Root;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraEditors.TextEdit txeCREATE;
+        private DevExpress.XtraEditors.TextEdit txeDATE;
+        private DevExpress.XtraEditors.TextEdit txeName;
+        private DevExpress.XtraEditors.TextEdit txeCode;
+        private DevExpress.XtraEditors.TextEdit txeID;
+        private DevExpress.XtraGrid.GridControl gcFunction;
+        private DevExpress.XtraGrid.Views.Grid.GridView gvFunction;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
@@ -819,23 +964,32 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem4;
-        private DevExpress.XtraEditors.RadioGroup radioGroup1;
+        private DevExpress.XtraEditors.RadioGroup rgStatus;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
-        private DevExpress.XtraTreeList.TreeList treeList1;
-        private DevExpress.XtraGrid.GridControl gridControl2;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
-        private DevExpress.XtraEditors.GridLookUpEdit gridLookUpEdit1;
+        private DevExpress.XtraTreeList.TreeList tlDirectory;
+        private DevExpress.XtraGrid.GridControl gcFolder;
+        private DevExpress.XtraGrid.Views.Grid.GridView gvFolder;
+        private DevExpress.XtraEditors.GridLookUpEdit glueGroup;
         private DevExpress.XtraGrid.Views.Grid.GridView gridLookUpEdit1View;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
+        private DevExpress.XtraEditors.TextEdit txeVersion;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
+        private DevExpress.XtraEditors.SimpleButton sbOpenFile;
+        private DevExpress.XtraEditors.TextEdit txeBrowse;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem12;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem13;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup3;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn colName;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn colType;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn colSize;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn colDate;
+        internal DevExpress.Utils.ImageCollection ImageCollection1;
+        internal DevExpress.Utils.ImageCollection icFunction;
+        private DevExpress.XtraEditors.LabelControl lblStatus;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem14;
+        private DevExpress.XtraEditors.XtraOpenFileDialog xtraOpenFileDialog1;
     }
 }
