@@ -681,6 +681,7 @@ namespace F04
                     txeName.Text = drCP["FunctionName"].ToString();
                     txeVersion.Text = drCP["Version"].ToString();
                     txeBrowse.Text = drCP["PathFile"].ToString();
+                    rgStatus.EditValue = Convert.ToInt32(drCP["StatusID"].ToString());
                     //txeName.ReadOnly = true;
                     txeCREATE.Text = drCP["Created By"].ToString();
                     txeDATE.Text = drCP["Created Date"].ToString();
